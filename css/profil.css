@@ -1,0 +1,212 @@
+header{
+    background-color:cadetblue;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.head{
+    font-family:fantasy;
+    text-decoration: underline;
+
+}
+
+
+
+.titre{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titre img{
+    margin-right: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo input{
+    margin-right: 20px;
+}
+#compte{
+    margin-right: 20px;
+}
+
+#input{
+    border-radius: 10px;
+}
+
+
+
+
+.img1{
+    padding: 20px;
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+
+} 
+body{
+    background-color: azure;
+}
+
+header{
+    background-color:cadetblue;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.head{
+    font-family:fantasy;
+    text-decoration: underline;
+
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titre img{
+    margin-right: 20px;
+}
+
+.bi-person-fill{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:150px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .titree{
+    display: flex;
+    align-items: center;
+}
+
+.titree img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h2{
+    font-family:fantasy;
+}
+
+p{
+    text-align: start;
+    margin-top: 3%;
+}
+
+.bloc{
+    display: block;
+    text-align: start;
+    
+}
+
+.bloc2{
+    display: block;
+    text-align: start;
+    
+}
+
+.reseau{
+    display: flex;
+    align-self: center;
+    margin-right: 5%;
+}
+
+    .bi-facebook{
+        margin-right: 10%;
+        color: black;     
+    }
+
+.bi-facebook:hover{
+    color: aliceblue;
+}
+
+
+    .bi-instagram{
+        margin-right: 10%;
+        color: black;
+    }
+
+    .bi-instagram:hover{
+        color: aliceblue;
+    }
+
+    .bi-twitter{
+        color: black;
+    }
+
+    .bi-twitter:hover{
+        color: aliceblue;
+    }
+
+
+    .div3{
+        height: 300px;
+        width: 300px;
+        background-color: cadetblue;
+        border-radius: 3%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+         margin-top: 20px;
+
+    }
+
+  
+
+    .abc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin: auto;
+       color: black;
+       text-decoration: none;
+    }
+    .abc:hover{
+        color: aliceblue;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+       
+    }
+
+    a:hover{
+        color: aliceblue;
+    }
+
+    
+ 
+
+   .person-fill{
+    color: black;
+   }
+
+   .person-fill:hover{
+    
+   }
+   

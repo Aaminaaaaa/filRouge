@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(240, 255, 255);
+}
+
+header{
+    background-color:cadetblue;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head{
+    font-family:fantasy;
+    text-decoration: underline;
+
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titre img{
+    margin-right: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo input{
+    margin-right: 20px;
+}
+#compte{
+    margin-right: 20px;
+}
+
+#input{
+    border-radius: 10px;
+}
+
+
+footer{
+   
+    bottom: 0;
+    width:100%;
+    height:150px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .titree{
+    display: flex;
+    align-items: center;
+}
+
+.titree img{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h2{
+    font-family:fantasy;
+}
+
+p{
+    text-align: start;
+    margin-top: 3%;
+}
+
+.bloc{
+    display: block;
+    text-align: start;
+    
+}
+
+.bloc2{
+    display: block;
+    text-align: start;
+    
+}
+
+.reseau{
+    display: flex;
+    align-self: center;
+    margin-right: 5%;}
+
+    .bi-facebook{
+        margin-right: 10%;
+    }
+      
+    .bi-instagram{
+        margin-right: 10%;
+        
+    }
+
+    a {
+        
+        color: black;
+        display: flex;
+    }
+
+    a:hover{
+        color:cadetblue
+    }
+
+
+.col-4{
+    display: flex;
+    
+}
+
+.butt{
+    display: block;
+   margin-left: 220px;
+   align-items: center;justify-content: center;
+   
+}
+
+button{
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: aliceblue;
+}
+
+.aff{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+h3{
+    margin-bottom: 50px;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
