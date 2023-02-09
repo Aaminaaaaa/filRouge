@@ -12,23 +12,37 @@
 <body>
         <header>
             <div class="titre">
-                <a href="./profil.html"><img src="./image/logo chouse your foud.png" alt="logo" width="60" height="60"> </a>
+                <a href="./premierepage.html"><img src="./image/logo chouse your foud.png" alt="logo" width="60" height="60"> </a>
                 <h1 class="head"> CHOUSE YOUR FOUD </h1>
             </div>
 
+
             <div class="logo">
                 
-                <form action=""> 
-                     <input id="input" type="search" placeholder="Rechercher">
-                </form>
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                </svg>
-                <a href="./panier.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <form action=""> 
+                   <input id="input" type="search" placeholder="Rechercher">
+              </form>
+
+             <div class="dropdown">
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+        </a>
+        
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./infoduprofil.html">Informations du compte</a></li>
+                  <li><a class="dropdown-item" href="./historique.html">Historique de commandes</a></li>
+                  <li><a class="dropdown-item" href="#">Paramétres</a></li>
+                </ul>
+              </div>
+              
+         
+                <a href="./panier.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi-cart" viewBox="0 0 16 16">
                   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                 </svg></a>
-            </div>
+            </div>  </div>
         </header>
 
        <div class="list z-3"> 
@@ -41,7 +55,7 @@
                           <a href="#">Les + rapides</a>
                         </div>
                 </li>
- ' '
+ 
                 <li class="mydropdown"> 
                     <a href="" class="dropbtn">Types de cuisines</a>
                     <div class="mydropdown-content">
@@ -83,7 +97,7 @@
             <div class="carousel-item active">
               <div class="w-100 d-flex justify-content-center d-flex justify-content-evenly">
                 <div class="gallery">
-                  <a href="">
+                  <a href="./404eror.html">
                     <img src="./image/big fern.jpeg" alt="" width="300" height="300">
                   </a>
                   <div class="desc">BIG FERNAND <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-heart" viewBox="0 0 16 16">
@@ -157,7 +171,7 @@
         </div>
 
         <div class="bloc">
-          <p>Obtenir de l'aide</p> 
+          <a href="./aide.html"><p>Obtenir de l'aide</p></a> 
           <p>Ajouter votre restaurant</p>
           <p>Créer un compte professionnel</p>
           <p>Promotions</p>

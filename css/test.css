@@ -97,7 +97,7 @@ header{
 
 
 footer{
-
+    position: relative;
     bottom: 0;
     width:100%;
     height:150px;
@@ -147,3 +147,31 @@ p{
     .bi-instagram{
         margin-right: 10%;
  }
+
+ span{
+    margin-left: 50%;
+ }
+
+ a{
+    color: black;
+ }
+
+ a:hover{
+    color: aliceblue;
+ }
+
+ .ins:hover{
+    color: cadetblue;
+ }
+
+ @keyframes image2 {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+  .image2 {
+    animation-name: image2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }

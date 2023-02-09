@@ -5,60 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/test.css">
-    <title>Inscription/Connexion</title>
+    <link rel="stylesheet" href="./css/inscription.css">
+    <title>Inscription</title>
 </head>
 <body>
     
     <header>
         <div class="titre">
-
-          <a href="./premierepage.html"> <img src="./image/Image_24-01-2023_a_10.29-modified.png" alt="logo" width="60" height="60"> </a> 
+            <a href="./tests.html"><img src="./image/logo chouse your foud.png" alt="logo" width="60" height="60"></a> 
         
         </div>
 
         <div class="logo">
 
+            <form action=""> 
+                 <input id="input" type="search" placeholder="Rechercher">
+            </form>
+
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
             </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
         </div>
     </header>
+<H2 class="H2inscription">INSCRIPTION</H2>
 
-
-
-<div class="main">
-
-    <div class="div3">
-        <img class="image2" src="./image/logo chouse your foud.png" alt="choose your food" width="400">
-
-    </div>
-
-    <div class="Form1">
-      <form method="get" action="./index.html">
-        <div class="form-floating mb-3 w-100">
-          
-             
-                <input type="email" required class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Adresse mail</label>
-          
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+          <input type="text" class="form-control"  placeholder="Prénom" aria-label="Prénom">
         </div>
-        <div class="form-floating w-100">
-            <input type="password" required class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Mot de passe</label>
-            <div class="button"> <button type="submit" class="btn btn-primary btn-sm">Valider</button>
-            </form> 
-              
-              <a class="ins" href="./inscription.html"> <span>S'inscrire</span></a></div>
-
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nom" aria-label="Nom">
         </div>
-    </div>
+      </div>
+      <form class="row">
+        <div class="col-sm-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4"> <br>
+        </div>
+
+        <hr>
+    <div class="password" >
+        <div class="col-4">
+            <label for="inputPassword4" class="form-label">Mot de passe </label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-4">
+            <label for="inputPassword4" class="form-label">Confirmer mot de passe</label>
+            <input type="password" class="form-control" id="inputPassword4"> <br>
+        </div>
+    </div> 
+    
+    <hr> 
+        <div class="col-6">
+          <label for="inputAddress" class="form-label">Addresse</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rue de la rue">
+        </div>
+        <div class="col-6 offset" >
+          <label for="inputAddress2" class="form-label">Addresse 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Rue de l'espace">
+        </div>
+        <div class="col-">
+          <label for="inputTelephone" class="form-label"> Numéro de téléphone</label>
+          <input type="text" class="form-control" id="inputtelephone"placeholder='0776564532'>
+        </div>
+        <div class="">
+          <label for="inputState" class="form-label">Ville</label>
+          <select id="inputState" class="form-select">
+            <option selected>Lille</option>
+            <option>Tourcoing</option>
+            <option>Mons-en-Baroeul</option>
+            <option>Seclin</option>
+            <option>Douai</option>
+            <option>Dunkerque</option>
+            <option>Roubaix</option>
+          </select>
+        </div>
+        <div class="">
+          <label for="inputZip" class="form-label">Code postale</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-4 offset-5 ">
+          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        </div>
+      </form>  
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
 <footer>
-    <div class="titree">
-      <img src="./image/Image_24-01-2023_a_10.29-modified.png" alt="logo" width="60" height="60"> 
+<div class="titree">
+      <img src="./image/logo chouse your foud.png" alt="logo" width="60" height="60"> 
       <h2> CHOUSE YOUR FOUD </h2>
   </div>
 
@@ -86,13 +136,6 @@
   </svg>
  </div>
   </footer>
-
-
-
-
-
-
-
 
 
 
