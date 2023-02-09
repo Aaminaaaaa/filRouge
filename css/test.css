@@ -146,4 +146,16 @@ p{
     }
     .bi-instagram{
         margin-right: 10%;
- }
+    }
+
+    @keyframes image2 {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+      .image2 {
+        animation-name: image2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+      }

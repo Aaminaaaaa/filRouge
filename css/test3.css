@@ -183,6 +183,7 @@ justify-content: center;
     color: crimson;
 }
 
-.col-column{
-    
+.visa{
+    display: flex;
+    justify-content: space-evenly;
 }
