@@ -1,3 +1,9 @@
+body{
+    background-color: aliceblue;
+}
+
+
+
 header{
     background-color:cadetblue;
     padding: 2%;
@@ -51,9 +57,6 @@ header{
     bottom: 60px;
 
 } 
-body{
-    background-color: azure;
-}
 
 
 
@@ -81,6 +84,7 @@ body{
 }
 
 footer{
+    position: relative;
     height:150px;
     background-color: cadetblue;
     display: flex;
@@ -138,28 +142,14 @@ p{
     }
   
 
-    .abc{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-    }
-
+    
     a{
         text-decoration: none;
     }
-.col-12{
-    position: relative;
-    padding:40px;
-
-}
 
 
-.col-column{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
+
 
 li{
 list-style-type: none;
@@ -171,19 +161,56 @@ text-transform: capitalize;
 }
 
 
-.row{
-position: relative;
-right: 20px;
-display: flex;
-justify-content: center;
-}
 
-.paramdp{
-    font-weight: bold;
-    color: crimson;
-}
 
-.visa{
+
+.dropdown-toggle{
+    color: black;
     display: flex;
-    justify-content: space-evenly;
+}
+
+.dropdown-toggle:hover{
+    color: aliceblue;
+}
+
+button{
+    margin-right: 60%;
+}
+
+.info{
+    border: 2px solid black;
+    margin-right: 60%;
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+}
+
+.bt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.bt button{   
+     margin-bottom: 70px;
+}
+
+.nom{
+    border: 1px solid black;
+    background-color: white;
+    font-weight: normal;
+    margin-right: 70%;
+    text-align: center;
+}
+
+button{
+    background-color: cadetblue;
+}
+
+button:hover{
+    color: aliceblue;
+}
+
+.dropdown-menu{
+    background-color: black;
 }

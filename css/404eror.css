@@ -1,0 +1,14 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+
+ img{
+    margin-left: 250px;
+ }
+
+ body{
+    background-color: black;
+ }

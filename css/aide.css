@@ -1,7 +1,3 @@
-body{
-    background-color: azure;
-}
-
 header{
     background-color:cadetblue;
     padding: 2%;
@@ -15,6 +11,9 @@ header{
     text-decoration: underline;
 
 }
+
+
+
 
 .titre{
     display: flex;
@@ -44,10 +43,45 @@ header{
 }
 
 
-footer{
+
+
+.img1{
+    padding: 20px;
+    width: 100px;
     position: relative;
-    bottom: 0;
-    width:100%;
+    bottom: 60px;
+
+} 
+body{
+    background-color:rgb(240, 255, 255);
+}
+
+
+
+
+.head{
+    font-family:fantasy;
+    text-decoration: underline;
+
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.titre img{
+    margin-right: 20px;
+}
+
+.bi-person-fill{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
     height:150px;
     background-color: cadetblue;
     display: flex;
@@ -67,6 +101,14 @@ h2{
     font-family:fantasy;
 }
 
+h3{
+    font-style: oblique;
+    text-decoration: solid;
+    padding:20px;
+    display: flex;
+    justify-content: left;
+    
+}
 p{
     text-align: start;
     margin-top: 3%;
@@ -95,51 +137,58 @@ p{
     .bi-instagram{
         margin-right: 10%;
     }
-
-    .m{
-        margin-left: 80px;
-    }
-
-    img{
-            float: left;
-    }
-
-   
   
 
-    .col-4{
+    .abc{
         display: flex;
         justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-        
+        margin: auto;
     }
 
-   .butt{
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: cadetblue;
-    padding-left: 7%;
-    padding-right: 7%;
+    a{
+        text-decoration: none;
+    }
+
+
+
+.col-column{
+    display: flex;
+    justify-content: center;
     text-align: center;
-   
-   }
-   .ajt{
-    border: 2px solid black;
+}
+
+
+.row{
+position: relative;
+right: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+.H1aide{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.input_aide{
     border-radius: 10px;
-    background-color: cadetblue;
-    padding: 2%;
-   }
+    width: 150%;
+    border-color: crimson;
+}
+.btn{
+width: 150%;
+}
 
-   .butt:hover{
-    background-color: aliceblue;
-   }
+.col-3{
+    font-weight: bolder;
+}
+.lien{
+    text-decoration: none;
+    color: black;
 
-   .ajt:hover{
-    background-color: aliceblue;
-   }
+}
 
-   h5{
-    text-decoration: underline;
+.lien:hover{
     color: cadetblue;
-   }
+}

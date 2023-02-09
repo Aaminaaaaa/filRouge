@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
 body{
     background-color: azure;
 }
@@ -7,7 +12,7 @@ header{
     padding: 2%;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .head{
@@ -44,8 +49,55 @@ header{
 }
 
 
-footer{
+
+
+.img1{
+    padding: 20px;
+    width: 100px;
     position: relative;
+    bottom: 60px;
+
+}   /*header page de conexion
+
+*/
+
+.div3{
+        height: 500px;
+        width: 500px;
+        background-color: cadetblue;
+        border-radius: 3%;
+        /* position: absolute;
+         left: 35%; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+}
+
+    
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+
+}
+
+.Form1{
+    padding: 10px;
+   width: 50%; 
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+footer{
+
     bottom: 0;
     width:100%;
     height:150px;
@@ -75,13 +127,13 @@ p{
 .bloc{
     display: block;
     text-align: start;
-    
+
 }
 
 .bloc2{
     display: block;
     text-align: start;
-    
+
 }
 
 .reseau{
@@ -94,52 +146,19 @@ p{
     }
     .bi-instagram{
         margin-right: 10%;
-    }
+ }
 
-    .m{
-        margin-left: 80px;
-    }
+ .container{
+    padding: 100px;
+    margin: 100px;
+ }
 
-    img{
-            float: left;
-    }
-
-   
-  
-
-    .col-4{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
-        
-    }
-
-   .butt{
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: cadetblue;
-    padding-left: 7%;
-    padding-right: 7%;
-    text-align: center;
-   
-   }
-   .ajt{
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: cadetblue;
-    padding: 2%;
-   }
-
-   .butt:hover{
-    background-color: aliceblue;
-   }
-
-   .ajt:hover{
-    background-color: aliceblue;
-   }
-
-   h5{
-    text-decoration: underline;
-    color: cadetblue;
-   }
+ .col-4{
+    padding: 20px;
+ }
+ .H2inscription{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+ }

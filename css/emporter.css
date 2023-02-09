@@ -1,5 +1,5 @@
 body{
-    background-color:azure
+    background-color: rgb(240, 255, 255);
 }
 
 header{
@@ -123,8 +123,8 @@ p{
     
     }
 
-    .livre{
-        background-color: cadetblue;
+    .empo{
+        background-color:cadetblue;
     }
 
     .mod{
@@ -241,7 +241,7 @@ p{
  }
 
  #toto{
-    background-color:white;
+    background-color: white;
     margin-left: 220px;
  }
 
@@ -267,7 +267,7 @@ p{
     justify-content: space-between;
     align-items: center;
     border: 1px solid;
-    margin-top: 100px;
+    margin-top: 500px;
     padding: 5px;
     background-color: cadetblue;
  }
@@ -276,10 +276,4 @@ p{
     width: 100%;
 }
 
-button{
-    background-color:white;
-}
  
-button:hover{
-    background-color: cadetblue;
-}
